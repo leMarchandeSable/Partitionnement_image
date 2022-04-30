@@ -1,8 +1,9 @@
 # Partitionnement_image
 
-![Mon_Mar_21_18-40-26_2022](https://user-images.githubuse![Mon_Mar_14_18-05-55_2022_0](https://user-images.githubusercontent.com/95425179/166098275-1cdcf9f5-a540-494e-85f9-9e7f5e4d01ca.jpg)
-![Mon_Mar_14_18-05-55_2022_1](https://user-images.githubusercontent.com/95425179/166098276-813085ee-af81-4e68-99e8-489a6283af53.jpg)
-rcontent.com/95425179/166098188-62e1bb1d-0745-4dce-b697-398684e17e83.jpg)
+
+![Mon_Mar_14_18-05-55_2022_0](https://user-images.githubusercontent.com/95425179/166098311-eae87f04-c355-47a6-8b8c-c6421936de7d.jpg)
+![Mon_Mar_14_18-05-55_2022_1](https://user-images.githubusercontent.com/95425179/166098314-4a28304d-e234-47a3-82b6-2e12886acfcd.jpg)
+
 
 Le partitionnement d’image, la catégorisation de données ou la régression de nuage de points ont en commun une solution simple à voir à l’œil nu. 
 Comme sur une image de parking ou notre cerveau  différencie très facilement une voiture du reste du cliché, la question est de traduire cette intuition numériquement.
