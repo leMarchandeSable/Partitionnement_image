@@ -3,7 +3,6 @@ import numpy as np
 import cv2
 import os
 import time
-from Ma314.BE__Ma314_2021.ACP import correlationdirprinc, cercle_cor
 
 
 def esperance(Xi):
@@ -205,7 +204,7 @@ def data_pixels(img, I, J, radius=1):
     return data_img
 
 
-def ACP_img(data_img, w=None, analyse=None):
+def ACP_img(data_img, w=None):
     # on fait une ACP pondéré classique sur la matrice data_img
     # les données sont normalisé mais ensuite pondérer par w
 
@@ -231,11 +230,6 @@ def ACP_img(data_img, w=None, analyse=None):
     kaiser = 0
     while S[kaiser] > np.sum(S) / d:
         kaiser += 1
-
-    if analyse is not None:
-        mat_cor = correlationdirprinc(Xcr, 2, normalisation=False)
-        cercle_cor(mat_cor, analyse, show=True)
-
 
     # on ne retourne pas uniquement le résultat de l'acp car on veut garder une trace des
     # coordonnées d'origine du pixel, chaque ligne de acp_indice est de la forme : i, j, y1, y2
